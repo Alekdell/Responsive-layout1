@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mainbox{
+    width: 100%;
+    height: 300px;
+    margin: 20px;
+    background-color: rgb(169, 9, 9);
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.center-boxes{
+    width: 40%;
+    height: 80px;
+    background-color: brown;
+    margin: 20px;
+}
+.flex3boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.box3s{
+    width: 180px;
+    height: 150px;
+    margin: 30px;
+    background-color: brown;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footerbox{
+    width: 150px;
+    height: 80px;
+    background-color: pink;
+    margin: 30px;
+    padding-bottom: 20px;
+}
+.footerbox2{
+    display: none;
+    background-color: pink;
+        width: 300px;
+        height: 100px;
+}
+
+@media all and  (max-width:400px) {
+
+    .mainbox{
+        width: 300px;
+        height: 100px;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .center-boxes{
+        width: 300px;
+        height: 70px;
+        margin: 2px;
+        margin-bottom: 10px;
+        
+        
+        
+    }
+
+    .center{
+        display: flex;
+        flex-direction: column;
+
+        
+        
+        
+        
+    }
+    .flex3boxes{
+        display: flex;
+        flex-direction: column-reverse;
+        
+        
+        
+        margin: 0px;
+        
+        
+
+    }
+    .box3s{
+       
+        width: 300px;
+        height: 200px;
+        margin: 10px;
+
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerbox{
+        display: none;
+    }
+    .footerbox2{
+        display: block;
+        background-color: pink;
+        width: 300px;
+        height: 100px;
+        margin: 10px;
+        padding-top: 20px;
+    }
+
+
+}
